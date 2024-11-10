@@ -1,0 +1,105 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+h1 {
+    text-align: center;
+    color: #0f4e85;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #d0eff8;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border: 1px solid #2a2406;
+    border-color: #080808 ;
+}
+
+fieldset {
+    border: 3px solid #76d7e4;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(227, 239, 203);
+    font-size:large;
+    font-weight:lighter;
+}
+    
+legend {
+    font-weight: bold;
+    text-align:center;
+    color: #080808;
+    font-size:x-large;
+    font-style: oblique;
+}
+
+label {
+    display:block;
+    margin-top: 10px;
+    color: rgb(9, 55, 55);
+}
+
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 8px;
+    color:#080808;
+    border: 2px solid #76d7e4 ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:large;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(186, 205, 198);
+    color: black;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight:bold;
+    border: 3px solid #2a2406;
+}
+
+button:hover {
+    background-color: #9dc4eb;
+}
+#resumeDisplay {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px #76d7e4;
+    border-radius: 8px;
+    background-color: rgb(227, 239, 203);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /*making resume editable*/
+    outline: none;
+} 
+
+#resumeDisplay h2 {
+    color: #0c0219;
+    border: #0c0219;
+}
+.profile-picture {
+    width: 150px; /* Set desired width */
+    height: 150px; /* Set desired height */
+    border-radius: 50%;  /* Makes it circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border: 2px solid #140136; /* Optional: adds a border */
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
